@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nova Prism Collective</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav">
+        <div class="logo">Nova Prism Collective</div>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#join">Join</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="hero-content">
+        <p class="badge">Artist Club • Est. 2014</p>
+        <h1>Where bold ideas, vibrant palettes, and fearless artists meet.</h1>
+        <p class="subtitle">
+          Nova Prism Collective is a community-driven artist club based in your
+          city. We host collaborative studio nights, critique circles, public
+          murals, and immersive showcases that spotlight experimental work.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#join">Become a member</a>
+          <a class="btn ghost" href="#events">See what’s next</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="about" class="panel about">
+        <div>
+          <h2>We’re here to nurture brave creativity.</h2>
+          <p>
+            The club brings together painters, illustrators, sculptors, poets,
+            musicians, and interdisciplinary makers. Weekly studio sessions,
+            community critiques, and collaborative installations help members
+            grow their practice with honest feedback and playful experimentation.
+          </p>
+          <div class="stats">
+            <div>
+              <span class="stat-number">86</span>
+              <span class="stat-label">Active artists</span>
+            </div>
+            <div>
+              <span class="stat-number">34</span>
+              <span class="stat-label">Exhibitions hosted</span>
+            </div>
+            <div>
+              <span class="stat-number">12</span>
+              <span class="stat-label">Community murals</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-grid">
+          <article>
+            <h3>Collaborative Studio</h3>
+            <p>
+              Open studio nights twice a week with shared tools, music, and
+              spontaneous critiques.
+            </p>
+          </article>
+          <article>
+            <h3>Artist Circles</h3>
+            <p>
+              Peer-led critique groups designed to celebrate experimentation and
+              thoughtful feedback.
+            </p>
+          </article>
+          <article>
+            <h3>Public Art</h3>
+            <p>
+              Members design community murals, pop-up galleries, and immersive
+              performances around the city.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="events" class="panel events">
+        <div class="panel-heading">
+          <div>
+            <p class="badge">Upcoming</p>
+            <h2>Events & happenings</h2>
+          </div>
+          <div class="filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="workshop">Workshops</button>
+            <button class="filter-btn" data-filter="showcase">Showcases</button>
+            <button class="filter-btn" data-filter="community">Community</button>
+          </div>
+        </div>
+        <div class="event-list">
+          <article class="event-card" data-category="workshop">
+            <div>
+              <p class="event-date">Apr 18</p>
+              <h3>Mixed Media Lab</h3>
+              <p>
+                A guided session exploring analog glitch, collage, and neon inks
+                with guest artist Aya Casillas.
+              </p>
+            </div>
+            <a href="#join">Reserve</a>
+          </article>
+          <article class="event-card" data-category="showcase">
+            <div>
+              <p class="event-date">May 02</p>
+              <h3>Night Bloom Showcase</h3>
+              <p>
+                Immersive evening installation featuring projection mapping and
+                live soundscapes.
+              </p>
+            </div>
+            <a href="#join">RSVP</a>
+          </article>
+          <article class="event-card" data-category="community">
+            <div>
+              <p class="event-date">May 12</p>
+              <h3>Community Mural Sprint</h3>
+              <p>
+                Collaborate on a vibrant underpass mural celebrating local
+                voices.
+              </p>
+            </div>
+            <a href="#join">Volunteer</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="gallery" class="panel gallery">
+        <p class="badge">From the collective</p>
+        <h2>Recent works</h2>
+        <div class="gallery-grid">
+          <figure>
+            <div class="img" aria-hidden="true"></div>
+            <figcaption>Prismatic Drift — K. Ahmed</figcaption>
+          </figure>
+          <figure>
+            <div class="img" aria-hidden="true"></div>
+            <figcaption>Electric Threads — S. Green</figcaption>
+          </figure>
+          <figure>
+            <div class="img" aria-hidden="true"></div>
+            <figcaption>Gravity Gardens — M. Li</figcaption>
+          </figure>
+          <figure>
+            <div class="img" aria-hidden="true"></div>
+            <figcaption>Analog Bloom — P. Bennett</figcaption>
+          </figure>
+          <figure>
+            <div class="img" aria-hidden="true"></div>
+            <figcaption>City Pulse — A. Serrano</figcaption>
+          </figure>
+          <figure>
+            <div class="img" aria-hidden="true"></div>
+            <figcaption>Waveform Diaries — R. Cruz</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="panel testimonials">
+        <h2>What members say</h2>
+        <div class="quotes">
+          <blockquote>
+            “The collective pushes me to try mediums I never imagined. The
+            support feels electric.”
+            <cite>— Imogen Duarte, textile artist</cite>
+          </blockquote>
+          <blockquote>
+            “Our mural sprint connected us with neighbors and sparked
+            collaborations that still thrive.”
+            <cite>— Dev Patel, muralist</cite>
+          </blockquote>
+        </div>
+      </section>
+
+      <section id="join" class="panel join">
+        <div>
+          <p class="badge">Membership</p>
+          <h2>Join Nova Prism Collective</h2>
+          <p>
+            Membership gives you 24/7 studio access, use of specialty equipment,
+            critique circles, and inclusion in quarterly showcases.
+          </p>
+          <ul>
+            <li>Sliding-scale membership from $25/mo</li>
+            <li>Scholarships for students and emerging artists</li>
+            <li>Opportunities to lead workshops and curate pop-up shows</li>
+          </ul>
+        </div>
+        <form class="join-form">
+          <label>
+            Name
+            <input type="text" placeholder="Your full name" required />
+          </label>
+          <label>
+            Email
+            <input type="email" placeholder="hello@example.com" required />
+          </label>
+          <label>
+            Primary medium
+            <input type="text" placeholder="Painting, sound, etc." />
+          </label>
+          <label>
+            Why do you want to join?
+            <textarea rows="3" placeholder="Share your goals"></textarea>
+          </label>
+          <button type="submit" class="btn primary">Submit interest</button>
+        </form>
+      </section>
+    </main>
+
+    <footer id="contact" class="footer">
+      <div>
+        <h3>Visit the studio</h3>
+        <p>147 Aurora St., Suite 3B • Thursday open hours 5–9 PM</p>
+      </div>
+      <div>
+        <h3>Stay connected</h3>
+        <p>@novaprism.club • hello@novaprism.club</p>
+      </div>
+      <p class="credit">© <span id="year"></span> Nova Prism Collective</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
